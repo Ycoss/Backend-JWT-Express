@@ -1,0 +1,37 @@
+{
+  "name": "backend-jwt-anahuac",
+  "version": "1.0.0",
+  "description": "API REST en Node.js + Express con autenticación JWT y CRUD de tareas protegido por usuario (Ingeniería de Software - Universidad Anáhuac Mayab)",
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "mongodb",
+    "rest-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ycoss/Backend-JWT-Express.git"
+  },
+  "license": "ISC",
+  "author": "Yadi Landa (Ycoss)",
+  "type": "commonjs",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "colors": "^1.4.0",
+    "crypt": "^0.0.2",
+    "dotenv": "^18.0.5",
+    "express": "^5.3.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.4"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
